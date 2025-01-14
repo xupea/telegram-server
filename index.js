@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const express = require("express");
 const initBot = require("./bot");
 const app = express();
-const port = 3000;
+const port = 9001;
 
 app.get("/send-msg-test", (req, res) => {
   res.send("Message sent!");
