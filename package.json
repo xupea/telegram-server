@@ -1,0 +1,20 @@
+{
+  "name": "telegram-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.json --no-daemon",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9",
+    "pm2": "^5.4.3"
+  }
+}
